@@ -1,0 +1,29 @@
+{
+  "name": "sbd-stream",
+  "version": "0.1.0",
+  "description": "Sentence Boundary Detection Stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indiependente/sbd-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "sentence",
+    "detection",
+    "boundary"
+  ],
+  "author": "indiependente",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indiependente/sbd-stream/issues"
+  },
+  "homepage": "https://github.com/indiependente/sbd-stream",
+  "dependencies": {
+    "sbd": "0.0.2",
+    "through": "^2.3.4"
+  }
+}
